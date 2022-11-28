@@ -1,0 +1,43 @@
+.divstyle{
+    background-color: rgb(14, 152, 165); 
+    width: 100%; height: 100vh;
+    position: relative;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:11;
+}
+h2{
+    padding-left: 25px; padding-top: 25px;
+}
+.circlediv{
+    text-align: center; font-size: 30px;
+    width: 25%;
+    display:inline-block;
+    margin-bottom: 2rem;
+}
+a{
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+button{
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 1.5rem;
+}
+.container-sessoes-index{
+    text-align: center;
+}
+.tabela-fundo{
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.card-body{
+    flex: 1 1 auto;
+}

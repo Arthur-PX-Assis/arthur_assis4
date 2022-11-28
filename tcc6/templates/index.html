@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Menu</title>
+    <style>
+        .circlediv{
+            text-align: center;
+            height: 450px; width: 400px;
+            display: inline-block;
+            background-color: rgb(10, 113, 122);
+            border-radius: 1.5rem;
+        }
+    </style>
+    <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function leval(){
+            window.location = '../static/livros/listarLivro.php'
+        }
+        function levaa(){
+            window.location = '../static/alunos/listarAluno.php'
+        }
+    </script>
+</head>
+
+<body>
+    <div class="divstyle">
+        <div class="container col-md-6">
+            <h1 class="d-flex justify-content-center">Olá! O que deseja?</h1><br>
+            <div class="circlediv col-md-3" onclick="levaa()">
+                <div class="col align-self-center">
+                    <img src="../static/img/aluno.png" alt="" style="height: 100px; width: 100px; margin-top: 6rem;">
+                    <h3>Alunos</h3>
+                </div>
+            </div><!--circlediv-->
+            <div class="circlediv col-md-3" style="margin-left: 2rem;" onclick="leval()">
+                <div class="col align-self-center">    
+                    <img src="../static/img/pilha-de-livros.png" alt="" style="height: 100px; width: 100px; margin-top: 6rem;">
+                    <h3>Livros</h3>
+                </div>
+            </div><!--circlediv-->
+        </div><!--container-->
+    </div><!--divstyle-->
+</body>
+
+</html>
